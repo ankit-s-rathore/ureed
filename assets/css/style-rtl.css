@@ -1,0 +1,93 @@
+/* === DIRECTION RTL === */
+body {direction: rtl; text-align: right;}
+.head-actions {margin-left: 0; margin-right: 10px;}
+.head-actions > li {margin-left: 0; margin-right: 8px;}
+.category-label:after {margin-left: 0; margin-right: 5px;}
+.category-box {margin-left: 0; margin-right: 20px;}
+.dropdown-menu {left: auto; right: 0;}
+.dd-menu > li > a {padding-right: 0; padding-left: 1rem;}
+.dd-menu > li > a:after {left: 2px; right: auto; transform: rotate(-135deg);}
+.header-image-box {text-align: left;}
+.form-style:focus ~ .input-placeholder, .form-style:not(:placeholder-shown) ~ .input-placeholder {left: auto; right: 2px;}
+.list-icon {margin-right: 0; margin-left: 1rem;}
+.find-form-right {margin-left: 0; margin-right: 20px;}
+.find-col + .find-col {border-left: none; border-right: 1px solid rgb(224, 224, 224);}
+.btn i {float: left;}
+.section-header > .heading-main, .section-header > .section-header-left { float: right;}
+.section-header > .explore-btn {float: left;}
+.icon-arrow-right:after {transform: rotate(-135deg);}
+.btn .icon-arrow-right {margin-left: 0; margin-right: 5px; margin-top: 7px;}
+.thumb-group {margin-right: 0; margin-left: 5px;}
+.nav {padding-right: 0;}
+.card-body .nav-pills .nav-item:not(:last-child) {margin-right: 0; margin-left: 10px;}
+.step-no {float: right;}
+.step-no + .spet-info {margin-left: 0; margin-right: 80px;}
+.time-box {left: auto; right: 20px;}
+.media-item {margin-right: 0; margin-left: 35px;}
+.services-inner {float: left;}
+.services-tab-nav {left: auto; right: 510px;}
+.check-list > li {padding-left: 0; padding-right: 28px;}
+.check-list > li:before {left: auto; right: 0;}
+.f-socials > li {margin-left: 0; margin-right: 10px;}
+.f-socials {text-align: left;}
+.copyright-text {margin-right: 0; margin-left: 1rem;}
+.icon-plus {top: 0;}
+.header-find-box .find-main-col .suggetions-panel {left: auto; right: 0;}
+.profile-action-item {margin-left: 0; margin-right: 0.75rem;}
+.btn-action .btn-icon {float: none;}
+.select-menu-box .icon {float: right;}
+.profile-info-right {padding-left: 0; padding-right: 20px;}
+.profile-meta-item {margin-right: 0; margin-left: 60px;}
+.profile-left {margin-right: 0; margin-left: 20px;}
+.user-thumb {margin-right: 0; margin-left: 1rem;}
+.user-rating-box {float: right;}
+.review-title-box .title {margin-right: 0; margin-left: 10px;}
+.icon-loading {margin-right: 0; margin-left: 5px;}
+.exp-logo {margin-left: 1rem; margin-right: 0;}
+.exp-meta-item {margin-right: 0; margin-left: 45px;}
+.label .label-dot {margin-right: -7px; margin-left: 5px;}
+.project-item-label .label {margin-right: 0; margin-left: 6px;}
+.listing-rating-box {float: right;}
+.filter-items {padding-right: 0;}
+.listing-thumb {right: 20px; left: 0;}
+.listing-rate {float: left;}
+.listing-actions > li + li {margin-left: 0; margin-right: 12px;}
+.checkbox-list > li {text-align: right;}
+.checkbox span {padding-left: 0; padding-right: 35px;}
+.checkbox span:before {left: auto; right: 0;}
+.checkbox span:after {left: auto; right: 9px;}
+.filter-dropdown {left: auto; right: 0;}
+.search-box {padding-right: 45px; padding-left: 18px;}
+.search-box .icon-search {left: auto; right: 15px;}
+.skills-tag {text-align: right;}
+.dd-menu > li > a, .dd-nav > li > a, .dd-header-box {text-align: right;}
+.dd-left {border-left: 1px solid rgb(224, 224, 224); border-right: none;}
+.online-status {right: auto; left: 6px;}
+.suggetions-panel {left: auto; right: -10px;}
+@media(max-width: 1199px){
+    .cat-close {right: auto !important; left: 0 !important;}
+}
+@media(max-width: 991px){
+    .navbar-toggler { left: auto; right: 0;}
+    .navbar-brand {margin-left: 0 !important; margin-right: 30px;}
+    .primary-nav {left: auto; right: -300px;}
+    .nav_active .primary-nav {right: 0;}
+    .find-col + .find-col {border-right: none;}
+    .find-form-right {margin-right: 0;}
+    .card-body .nav-pills .nav-item:not(:last-child) {margin-left: 0;}
+    .media-item {margin-left: 0;}    
+    .services-inner {float: none;}
+    .services-inner {padding-bottom: 300px !important;}
+    .profile-action-item {margin-right: 0 !important; margin-left: 10px !important;}
+    .suggetions-panel {right: 0;}
+}
+@media(max-width: 767px){
+    .f-socials {text-align: center;}
+    .f-socials > li {margin-right: 5px; margin-left: 5px;}
+}
+@media(max-width: 575px){
+    .category-box {margin-left: 0 !important; margin-right: 10px !important;}
+}
+@media(max-width: 479px){
+    .profile-info-right {padding-right: 0;}
+}
