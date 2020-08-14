@@ -874,5 +874,45 @@ background: rgb(212, 231, 254);
 .profile-sticky .profile-name {font-size: 1.25rem; }
 .profile-sticky .profile-des {font-size: .875rem; margin-bottom: 10px;}
 .profile-sticky .user-item {margin-bottom: 0;}
-
 .active_profile_sticky .profile-sticky-full {top: 0;}
+/* modal */
+.modal-full {position: fixed; top: 0; left: 0; right: 0; bottom: 0; z-index: 999; background-color: rgba(0, 0, 0, 0.5); overflow: auto; display: none;}
+.modal-full.active {display: block;}
+.modal-box {background-color: var(--color-white); width: 420px; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); border-radius: 8px;}
+.login-with-item {display: block; height: 48px; border: 1px solid rgb(238, 238, 238); padding:15px 50px; position: relative; border-radius: 4px; text-align: center; font-weight: 500; font-size: .875rem; color: #000; transition: .2s; text-decoration: none !important;}
+.login-with-linkedin:hover {border-color: #0077b7;}
+.login-with-google:hover {border-color: #F14336;}
+.icon-login-with {display: block; width: 26px; height: 26px; position: absolute; left: 20px; top: 10px;}
+.login-with {margin: 0; padding: 0;}
+.login-with > li {list-style: none; margin-bottom: 8px;}
+.login-heading-box p {font-size: .875rem;}
+.form-box {margin-bottom: 8px;}
+.form-box label {font-size: .875rem; font-weight: 500; display: block;}
+.btn-full {width: 100%;}
+.login-form-panel {margin-top: 16px; padding-top: 16px; border-top: 1px solid rgb(238, 238, 238);}
+.modal-body {padding: 35px 40px;}
+.form-submit-box {margin-top: 24px;}
+.input-field {position: relative; margin-bottom: 5px;}
+.pwd-toggle {position: absolute; top: 6px; right: 10px; margin-bottom: 0; padding: 12px 5px; cursor: pointer;}
+.pwd-toggle > span {font-size: .75rem; display: block; transition: .2s;}
+.pwd-toggle > span:hover {opacity: .75;}
+.pwd-toggle .pwd-hide {display: none;}
+.input-field .form-control {font-size: .875rem; height: 48px;}
+.forgot-pwd {font-size: .875rem;}
+#pwd-toggle {display: none;}
+#pwd-toggle:checked + .pwd-toggle .pwd-hide {display: block;}
+#pwd-toggle:checked + .pwd-toggle .pwd-show {display: none;}
+.icon-close {display: block; width: 32px; height: 32px; background: url(../images/icon-close.png) center center no-repeat; background-size: 20px 20px;}
+.modal-close {position: absolute; top: 15px; right: 15px; z-index: 9; cursor: pointer; transition: .2s;}
+.modal-close:hover {opacity: .5;}
+.modal-login-box {padding-top: 10px;}
+.login-heading-box .heading-main {margin-bottom: 2px;}
+.login-heading-box {margin-bottom: 1.5rem;}
+.login-bottom {font-size: 1.125rem; text-align: center; margin-top: 22px;}
+.terms-item .checkbox span, .terms-item .checkbox input:checked + span {line-height: 1.5; color: #999;}
+.terms-item .checkbox span strong {color: #000;}
+.terms-item .checkbox span:before {top: 8px;}
+.terms-item .checkbox span:after {top: 12px;}
+@media(max-height: 580px){
+    .modal-box {transform: translate(-50%,0); top: 30px; margin-bottom: 30px;}
+}

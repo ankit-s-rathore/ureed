@@ -64,6 +64,8 @@ body {direction: rtl; text-align: right;}
 .dd-left {border-left: 1px solid rgb(224, 224, 224); border-right: none;}
 .online-status {right: auto; left: 6px;}
 .suggetions-panel {left: auto; right: -10px;}
+.icon-login-with {left: auto; right: 20px;}
+.pwd-toggle {left: 10px; right: auto;}
 @media(max-width: 1199px){
     .cat-close {right: auto !important; left: 0 !important;}
 }

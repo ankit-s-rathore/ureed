@@ -3,7 +3,23 @@
         $("body").addClass("page-loaded");
     })
 
+    $(".modal-toggle").on("click", function(e){
+        e.preventDefault()
+        $(".modal-full").removeClass("active");
+        $(".modal-full"+$(this).data('target')).addClass("active");
+    });
+    $(".modal-close").on("click", function(e){
+        e.preventDefault()
+        $(this).closest(".modal-full").removeClass("active");
+    });
     
+    $("#pwd-toggle").on("change", function(){
+        if($('input#pwd-toggle').is(':checked')){
+            $("#input_pwd").attr('type', 'text')
+        } else {
+            $("#input_pwd").attr('type', 'password')
+        }
+    })
 
     $(".nav_action").click(function(e){
         e.preventDefault();
