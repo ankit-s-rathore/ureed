@@ -12,7 +12,25 @@
         e.preventDefault()
         $(this).closest(".modal-full").removeClass("active");
     });
+    $(".faq-title").on("click", function(e){
+        e.preventDefault()
+        $(this).parent().toggleClass("active")
+    })
+    if($(window).width() <= 991){
+        $(document).on("click", function(){
+            $(".menu-full").hide()
+        })
+        $(".nav-actions").on("click", function(e){
+            e.stopPropagation()
+            $(".menu-full").toggle()
+        })
+        $(".menu-full").on("click", function(e){
+            e.stopPropagation()
+        })
+    }
     
+    
+
     $("#pwd-toggle").on("change", function(){
         if($('input#pwd-toggle').is(':checked')){
             $("#input_pwd").attr('type', 'text')

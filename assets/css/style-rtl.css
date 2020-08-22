@@ -66,8 +66,32 @@ body {direction: rtl; text-align: right;}
 .suggetions-panel {left: auto; right: -10px;}
 .icon-login-with {left: auto; right: 20px;}
 .pwd-toggle {left: 10px; right: auto;}
+.modal-close {right: auto; left: 15px;}
+.banner-form-box {margin-right: auto;}
+.menu-get-started {right: auto; left: 25px;}
+.media-left {padding-right: 0; padding-left: 20px;}
+.boxes-outer > .row > div + div {border-left: none; border-right: 1px solid rgba(212, 231, 254, 0.6);}
+.cta-caption {margin-right: auto;}
+.faq-left {margin-right: 0; margin-left: 50px;}
+.faq-title {padding-right: 0; padding-left: 30px;}
+.faq-title:after {right: auto; left: 15px;}
+.item-icon {left: auto; right: 20px;}
+.faces-box > div {border-left: none; border-right: 1px solid rgb(237, 237, 237);}
+.text-cols > div {border-right: none; border-left: 1px solid #eee;}
+.text-cols > div:nth-child(3n+3) {border-left: none;}
+.text-col {text-align: right;}
+.quote-content-text {margin-left: 0; margin-right: -200px;}
+.header-search-inner .form-control {padding-left: 40px; padding-right: .75rem;}
+.btn-search {left: 10px; right: auto;}
+.s-col-box {margin-right: 0; margin-left: 2rem;}
+.listing-media-left {margin-right: 0; margin-left: 12px;}
+.why-ureed-left, .form-left {padding-right: 0; padding-left: 50px;}
+.launch-media-box {margin-left: 0; margin-right: 20px;}
+.details-data-left {margin-right: 0; margin-left: 20px;}
 @media(max-width: 1199px){
     .cat-close {right: auto !important; left: 0 !important;}
+    .why-ureed-left {padding-left: 0;}
+    .form-left {padding-left: 0;}
 }
 @media(max-width: 991px){
     .navbar-toggler { left: auto; right: 0;}
@@ -82,13 +106,20 @@ body {direction: rtl; text-align: right;}
     .services-inner {padding-bottom: 300px !important;}
     .profile-action-item {margin-right: 0 !important; margin-left: 10px !important;}
     .suggetions-panel {right: 0;}
+    .nav-dots {margin-left: 0; margin-right: -10px;}
+    .menu-get-started {float: left !important;}
+    .media-left {padding-left: 0;}
+    .text-cols > div {border-left: none;}
+    .details-data-left {margin-left: 0;}
 }
 @media(max-width: 767px){
     .f-socials {text-align: center;}
     .f-socials > li {margin-right: 5px; margin-left: 5px;}
+    .boxes-outer > .row > div + div {border-right: none;}
 }
 @media(max-width: 575px){
     .category-box {margin-left: 0 !important; margin-right: 10px !important;}
+    .launch-media-box {margin-left: 0 !important; margin-right: 10px;}
 }
 @media(max-width: 479px){
     .profile-info-right {padding-right: 0;}
