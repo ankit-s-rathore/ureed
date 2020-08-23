@@ -64,6 +64,11 @@ body {padding-top: 90px;}
 .heading-main.xs {font-size: 1.25rem;}
 .heading-main.xl {font-size: 3rem; line-height: 1.125;}
 .heading-main.xl2 {font-size: 3.75rem; line-height: 1.125;}
+
+.form-box.left, .form-box.right {width: 49%;float: left;}
+.form-box.left {margin-right: 2%;}
+.text-sm-blue {font-weight: 500;color: #006df5;}
+
 @media(min-width:992px){
     .heading-main.lg {font-size: 2.25rem;}
 }
@@ -927,6 +932,8 @@ background: rgb(212, 231, 254);
 .terms-item .checkbox span:after {top: 12px;}
 @media(max-height: 580px){
     .modal-box {transform: translate(-50%,0); top: 30px; margin-bottom: 30px;}
+    .form-box.left, .form-box.right {width: 100%;float: none;}
+    .form-box.left {margin-right: 0%;}
 }
 /* == NEW STYLES == */
 .banner-full {position: relative; background-position: center center; background-repeat: no-repeat; background-size: cover;}
