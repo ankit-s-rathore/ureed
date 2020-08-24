@@ -64,11 +64,6 @@ body {padding-top: 90px;}
 .heading-main.xs {font-size: 1.25rem;}
 .heading-main.xl {font-size: 3rem; line-height: 1.125;}
 .heading-main.xl2 {font-size: 3.75rem; line-height: 1.125;}
-
-.form-box.left, .form-box.right {width: 49%;float: left;}
-.form-box.left {margin-right: 2%;}
-.text-sm-blue {font-weight: 500;color: #006df5;}
-
 @media(min-width:992px){
     .heading-main.lg {font-size: 2.25rem;}
 }
@@ -910,15 +905,15 @@ background: rgb(212, 231, 254);
 .modal-body {padding: 35px 40px;}
 .form-submit-box {margin-top: 24px;}
 .input-field {position: relative; margin-bottom: 5px;}
-.pwd-toggle {position: absolute; top: 6px; right: 10px; margin-bottom: 0; padding: 12px 5px; cursor: pointer;}
-.pwd-toggle > span {font-size: .75rem; display: block; transition: .2s;}
-.pwd-toggle > span:hover {opacity: .75;}
-.pwd-toggle .pwd-hide {display: none;}
+.pwd-toggle, .pwd-toggle2 {position: absolute; top: 6px; right: 10px; margin-bottom: 0; padding: 12px 5px; cursor: pointer;}
+.pwd-toggle > span, .pwd-toggle2 > span {font-size: .75rem; display: block; transition: .2s;}
+.pwd-toggle > span:hover, .pwd-toggle2 > span:hover {opacity: .75;}
+.pwd-toggle .pwd-hide, .pwd-toggle2 .pwd-hide {display: none;}
 .input-field .form-control {font-size: .875rem; height: 48px;}
 .forgot-pwd {font-size: .875rem;}
-#pwd-toggle {display: none;}
-#pwd-toggle:checked + .pwd-toggle .pwd-hide {display: block;}
-#pwd-toggle:checked + .pwd-toggle .pwd-show {display: none;}
+#pwd-toggle, #pwd-toggle2 {display: none;}
+#pwd-toggle:checked + .pwd-toggle .pwd-hide, #pwd-toggle2:checked + .pwd-toggle2 .pwd-hide {display: block;}
+#pwd-toggle:checked + .pwd-toggle .pwd-show, #pwd-toggle2:checked + .pwd-toggle2 .pwd-show {display: none;}
 .icon-close {display: block; width: 32px; height: 32px; background: url(../images/icon-close.png) center center no-repeat; background-size: 20px 20px;}
 .modal-close {position: absolute; top: 15px; right: 15px; z-index: 9; cursor: pointer; transition: .2s;}
 .modal-close:hover {opacity: .5;}
@@ -932,8 +927,6 @@ background: rgb(212, 231, 254);
 .terms-item .checkbox span:after {top: 12px;}
 @media(max-height: 580px){
     .modal-box {transform: translate(-50%,0); top: 30px; margin-bottom: 30px;}
-    .form-box.left, .form-box.right {width: 100%;float: none;}
-    .form-box.left {margin-right: 0%;}
 }
 /* == NEW STYLES == */
 .banner-full {position: relative; background-position: center center; background-repeat: no-repeat; background-size: cover;}
@@ -1199,3 +1192,45 @@ line-height: 1.5;
 .modal-info-header {padding: 25px 20px 20px;}
 .modal-info-header .title {margin-bottom: 0;}
 .modal-info-body {padding: 20px;}
+.account-type-radio {display: inline-block; width: 100%;}
+.account-type-radio > span {
+    height: 70px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.08);
+    border-radius: 4px; display: block; padding: 22px 12px; 
+    color: rgb(0, 0, 0);
+    font-size: .875rem;
+    font-weight: 500; cursor: pointer;}
+.account-type-radio > span img {display: inline-block; vertical-align: middle; width: auto; height: 26px; margin-right: 10px;}
+.account-type-box {margin: 0 -10px;}
+.account-type-box > div {padding: 0 10px;}
+.account-type-radio input {display: none;}
+.account-type-radio input:checked + span {background-color: #d4e7fe;}
+.signup-left {min-width: 500px; max-width: 500px; padding: 40px 0;}
+.signup-page-form-panel {max-width: 380px;}
+.signup-section-full {position: relative; border-top: 1px solid #eee;}
+.signup-right-bg {position: absolute; background: url(../images/signup-bg.jpg) center center no-repeat; background-size: 100% 100%; top: 0; right: 0; bottom: 0; width: calc(50% + 100px);}
+.signup-main-panel {position: relative; z-index: 2;}
+.quote-box-main {max-width: 516px; margin-left: auto; color: #fff;}
+.quote-text {
+color: rgb(255, 255, 255);
+font-size: 2rem;
+font-weight: 300;
+font-style: italic;
+line-height: 52px;
+margin-bottom: 3rem;
+}
+.quote-bottom-logo {max-width: 190px;}
+.quote-by-text {
+color: rgb(255, 255, 255);
+font-size: 1.5rem;
+font-weight: 500;
+letter-spacing: 0px;
+line-height: 28px;
+}
+.quote-by-text span {display: block;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: normal;
+    font-style: italic;
+    letter-spacing: 0px;}

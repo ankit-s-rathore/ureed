@@ -67,6 +67,7 @@
     .btn-xl {height: 52px; font-size: 1.25rem; padding: 10px;}
     .cta-full-box .btn-outer {margin-top: 25px;}
     .form-left {padding-right: 0;}
+    .signup-right-bg {width: calc(50% + 25px);}
 }
 @media(max-width: 991px){
     .primary-nav {position: fixed; left: 0; top: 70px; bottom: 0; background-color: var(--color-primary); color: var(--color-white); padding: 30px 20px; width: 280px; left: -300px; opacity: 0; transition: .4s;}
@@ -133,6 +134,10 @@
     .s-table-header-group .heading-main br {display: none;}
     .s-table-header-group .heading-main {}
     .s-col-box {margin-right: 1rem;}
+    .signup-main-panel {display: block;}
+    .signup-left, .signup-page-form-panel {max-width: 100%; min-width: 100px;}
+    .signup-right-bg {display: none;}
+    .signup-right {background: url(../images/signup-bg.jpg) center center no-repeat; background-size: 100% 100%; padding: 150px 30px;}
 }
 @media(max-width: 767px){
     .heading-large {font-size: 2.5rem;}
@@ -162,6 +167,10 @@
     .popup-body {padding: 30px;}
     .cta-full-panel .heading-main.xl {font-size: 2.5rem;}
     .cta-full-panel {height: auto; padding: 40px 0;}
+    .signup-right {background: #036cf5; padding: 20px;}
+    .quote-text { font-size: 1.5rem; line-height: 1.5;}
+    .quote-box-bottom {display: block;}
+    .quote-by-text {margin-bottom: 10px;}
 }
 @media(max-width: 699px){
     .header-search-box {display: none;}
@@ -210,6 +219,7 @@
     .services-panel-top {background-position: left bottom;}
     .services-inner {padding-left: 20px; padding-top: 20px; padding-right: 20px;}
     .services-tab-nav {padding: 20px;}
+    .account-type-radio > span {display: flex; align-items: center; line-height: 1.25;}
 }
 /* == NEW STYLES == */
 @media(max-width: 1399px){
