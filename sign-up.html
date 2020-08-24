@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+    <title>Ureed.com</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />    
+    <!-- <link rel="stylesheet" href="assets/css/style-rtl.css" /> -->
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+</head>
+<body style="padding-top: 0px;">
+<main class="main-full">
+    <!-- media panel -->
+    <section class="page-section-full signup-section-full">
+        <div class="signup-right-bg"></div>
+        <div class="container">
+            <div class="signup-main-panel flex align-items-center">
+                <div class="signup-left">
+                    <div class="heading-box">
+                        <div class="heading-main lg"><img src="assets/images/logo.png" alt="Ureed.com"></div>
+                    </div>
+                    <div class="signup-page-form-panel">
+                        <form>
+                            <div class="form-box">
+                                <label>Choose account type</label>
+                                <div class="account-type-box row">
+                                    <div class="col-6">
+                                        <label class="account-type-radio">
+                                            <input type="radio" checked name="account_type" />
+                                            <span><img src="assets/images/icon-employer.png" /> <span>I'm an Employer</span></span>
+                                        </label>
+                                    </div>
+                                    <div class="col-6">
+                                        <label class="account-type-radio">
+                                            <input type="radio" name="account_type" />
+                                            <span><img src="assets/images/icon-freelancer.png" /> <span>I'm a Freelancer</span></span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-box">
+                                <label>Full name</label>
+                                <div class="input-field">
+                                    <input type="text" class="form-control" placeholder="John albert" />
+                                </div>
+                            </div>
+                            <div class="form-box">
+                                <label>Email Address</label>
+                                <div class="input-field">
+                                    <input type="text" class="form-control" placeholder="John.albert@mail.com" />
+                                </div>
+                            </div>
+                            <div class="form-box">
+                                <label>Password</label>
+                                <div class="input-field">
+                                    <input type="checkbox" id="pwd-toggle" />
+                                    <label for="pwd-toggle" class="pwd-toggle">
+                                        <span class="pwd-show">Show</span>
+                                        <span class="pwd-hide">Hide</span>
+                                    </label>
+                                    <input type="password" class="form-control" id="input_pwd" placeholder="Password" />
+                                </div>                         
+                            </div>
+                            <div class="form-box">
+                                <label>Cofirm password</label>
+                                <div class="input-field">
+                                    <input type="checkbox" id="pwd-toggle2" />
+                                    <label for="pwd-toggle2" class="pwd-toggle2">
+                                        <span class="pwd-show">Show</span>
+                                        <span class="pwd-hide">Hide</span>
+                                    </label>
+                                    <input type="password" class="form-control" id="input_pwd2" placeholder="Password" />
+                                </div>                         
+                            </div>
+                            <div class="form-box">
+                                <label>Phone number</label>
+                                <div class="input-field">
+                                    <input type="text" class="form-control" placeholder="0-000-00-0000" />
+                                </div>
+                            </div>
+                            <div class="form-box">
+                                <div class="terms-item">
+                                    <label class="checkbox"><input type="checkbox" checked=""> <span>I agree to Ureed.com's <strong>Terms &amp; Conditions</strong> and <strong>Privacy Policy</strong> </span> </label>
+                                </div>
+                            </div>
+                            <div class="form-submit-box">
+                                <button type="button" class="btn btn-primary btn-full">Create account</button>
+                            </div>
+                            <div class="login-bottom">Already have an account?  <a href="#">Sign in</a></div>
+                        </form>
+                    </div>
+                </div>
+                <div class="signup-right flex-auto">
+                    <div class="signup-right-inner">
+                        <div class="quote-box-main">
+                            <p class="quote-text">Ureed.com platform is one of the best 
+                                companies I have dealt with in 
+                                Indonesia. They’re always happy to 
+                                help, and i wouldn’t hesitate to 
+                                recommend them.</p>
+                            <div class="quote-box-bottom flex">
+                                <div class="flex-auto">
+                                    <div class="quote-by-text">
+                                        Daniel Anderson <span>Manager Director, Seedstars</span>
+                                    </div>
+                                </div>
+                                <div class="quote-bottom-logo"><img src="assets/images/seedstar-logo.png" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //media panel -->
+</main>
+
+
+<script src="assets/js/jquery-3.5.1.slim.min.js"></script>
+<script src="assets/js/script.js"></script>
+<script>
+$(document).on("click", function(){
+    $(".profile-suggestions").removeClass("active");
+    $(".location-suggestions").removeClass("active");
+})
+$(".location-input").on("keyup click", function(e){
+    e.stopPropagation();
+    var thisVal = $(this).val().replace('Try:', '');
+    $(this).val(thisVal);
+    $(".profile-suggestions").removeClass("active");
+    $(".location-suggestions").removeClass("active");
+    $(this).closest('.find-main-col').find(".location-suggestions").addClass("active");
+});
+$(".action-select-location").on("click", function(e){
+    e.stopPropagation();
+    $(".location-input").val($(this).attr("data-value"));
+    $(".location-suggestions").removeClass("active");
+});
+
+$(".profile-input").on("keyup click", function(e){
+    e.stopPropagation();
+    var thisVal = $(this).val().replace('Try:', '');
+    $(this).val(thisVal);
+    $(".profile-suggestions").removeClass("active");
+    $(".location-suggestions").removeClass("active");
+    $(this).closest('.find-main-col').find(".profile-suggestions").addClass("active");
+});
+$(".action-select-profile").on("click", function(e){
+    e.stopPropagation();
+    $(".profile-input").val($(this).attr("data-value"));
+    $(".profile-suggestions").removeClass("active");
+});
+
+</script>
+</body>
+</html>
