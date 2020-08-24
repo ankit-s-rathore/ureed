@@ -38,6 +38,13 @@
             $("#input_pwd").attr('type', 'password')
         }
     })
+    $("#pwd-toggle2").on("change", function(){
+        if($('input#pwd-toggle2').is(':checked')){
+            $("#input_pwd2").attr('type', 'text')
+        } else {
+            $("#input_pwd2").attr('type', 'password')
+        }
+    })
 
     $(".nav_action").click(function(e){
         e.preventDefault();
