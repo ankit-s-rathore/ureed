@@ -138,6 +138,10 @@
     .signup-left, .signup-page-form-panel {max-width: 100%; min-width: 100px;}
     .signup-right-bg {display: none;}
     .signup-right {background: url(../images/signup-bg.jpg) center center no-repeat; background-size: 100% 100%; padding: 150px 30px;}
+    .contact-main-body {display: block;}
+    .contact-left {max-width: 100%; min-width: 100px; margin-right: 0; margin-bottom: 50px;}
+    .banner-height-sm {height: 180px;}
+    .contact-main-body, .contact-form-body {padding: 30px;}
 }
 @media(max-width: 767px){
     .heading-large {font-size: 2.5rem;}
@@ -171,6 +175,7 @@
     .quote-text { font-size: 1.5rem; line-height: 1.5;}
     .quote-box-bottom {display: block;}
     .quote-by-text {margin-bottom: 10px;}
+    .banner-height-sm {height: 180px; padding-top: 0 !important;}
 }
 @media(max-width: 699px){
     .header-search-box {display: none;}
@@ -214,6 +219,9 @@
     .profile-info-right {padding-left: 0;}
     .login-bottom {font-size: 1rem;}
     .modal-body {padding: 35px 20px 20px; }
+    .contact-main-body {padding: 0;}
+    .contact-form-body, .contact-left {padding: 20px;}
+    .contact-left {margin-bottom: 1rem;}
 }
 @media(max-width: 399px){
     .services-panel-top {background-position: left bottom;}
@@ -289,6 +297,7 @@
     .heading-main.xl2 {font-size: 2.75rem;}
     .banner-cms-inner {padding: 2rem 0;}
     .modal-info-full .modal-box {width: 90%;}
+    .heading-main br {display: none;}
 }
 @media(max-width: 575px){
     .faces-box > div {max-width: 50%; padding: 0; border: none;}
