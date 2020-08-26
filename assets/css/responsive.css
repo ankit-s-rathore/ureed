@@ -68,6 +68,9 @@
     .cta-full-box .btn-outer {margin-top: 25px;}
     .form-left {padding-right: 0;}
     .signup-right-bg {width: calc(50% + 25px);}
+    .signup-right {left: 55%;}
+    .quote-text {font-size: 1.5rem; line-height: 1.5;}
+    .quote-box-main {max-width: 400px;}
 }
 @media(max-width: 991px){
     .primary-nav {position: fixed; left: 0; top: 70px; bottom: 0; background-color: var(--color-primary); color: var(--color-white); padding: 30px 20px; width: 280px; left: -300px; opacity: 0; transition: .4s;}
@@ -142,6 +145,8 @@
     .contact-left {max-width: 100%; min-width: 100px; margin-right: 0; margin-bottom: 50px;}
     .banner-height-sm {height: 180px;}
     .contact-main-body, .contact-form-body {padding: 30px;}
+    .signup-right-bg {position: absolute;}
+    .quote-box-main {margin: 0 auto;}
 }
 @media(max-width: 767px){
     .heading-large {font-size: 2.5rem;}
@@ -176,6 +181,8 @@
     .quote-box-bottom {display: block;}
     .quote-by-text {margin-bottom: 10px;}
     .banner-height-sm {height: 180px; padding-top: 0 !important;}
+    .change-photo-profile .change-photo-action { font-size: 0;}
+    .change-photo-profile .change-photo-action .icon-camera {margin-right: 0;}
 }
 @media(max-width: 699px){
     .header-search-box {display: none;}
