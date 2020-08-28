@@ -71,6 +71,8 @@
     .signup-right {left: 55%;}
     .quote-text {font-size: 1.5rem; line-height: 1.5;}
     .quote-box-main {max-width: 400px;}
+    .dashboard-menu > li > a { font-size: .875rem;}
+    .dashboard-menu > li > a img {height: 20px;}
 }
 @media(max-width: 991px){
     .primary-nav {position: fixed; left: 0; top: 70px; bottom: 0; background-color: var(--color-primary); color: var(--color-white); padding: 30px 20px; width: 280px; left: -300px; opacity: 0; transition: .4s;}
@@ -147,6 +149,10 @@
     .contact-main-body, .contact-form-body {padding: 30px;}
     .signup-right-bg {position: absolute;}
     .quote-box-main {margin: 0 auto;}
+    .dashboard-menu-box {margin-left: 0;}
+    .dashboard-menu > li {display: block; margin-bottom: 1.25rem;}
+    .dashboard-menu > li > a {font-size: 1rem; color: #fff; opacity: 1; font-weight: 400;}
+    .dashboard-menu > li > a img {width: 32px; height: 32px; padding: 7px; background-color: #fff; border-radius: 50%; margin-right: 5px;}
 }
 @media(max-width: 767px){
     .heading-large {font-size: 2.5rem;}
@@ -235,6 +241,9 @@
     .services-inner {padding-left: 20px; padding-top: 20px; padding-right: 20px;}
     .services-tab-nav {padding: 20px;}
     .account-type-radio > span {display: flex; align-items: center; line-height: 1.25;}
+    .dash-nav-item {margin-left: 0;}
+    .dash-head-search {padding-right: 0;}
+    .dash-search-input {width: 55px;}
 }
 /* == NEW STYLES == */
 @media(max-width: 1399px){
