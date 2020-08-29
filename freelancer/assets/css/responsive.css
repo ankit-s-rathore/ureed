@@ -155,6 +155,9 @@
     .dashboard-menu > li > a img {width: 32px; height: 32px; padding: 7px; background-color: #fff; border-radius: 50%; margin-right: 5px;}
     .dashboard-main-menu.menu-full-outer {position: static; height: 0; padding: 0;} 
     .dashboard-main-menu.menu-full-outer .menu-full {width: auto; left: 15px; right: 15px;}
+    .project-detail-full-main {flex-wrap: wrap;}
+    .sidebar-right {margin-left: 0;}
+    .profile-actions-box .profile-action-item {margin-right: 0; margin-left: 5px;}
 }
 @media(max-width: 767px){
     .heading-large {font-size: 2.5rem;}
@@ -228,6 +231,9 @@
     .btn-sm {min-width: 80px;}
     .modal-full {background-color: #fff;}
     .modal-box {left: 0; top: 0; width: 100%; height: 100%; transform: translate(0,0); border-radius: 0;}
+    .detail-page-top-inner {display: block !important;}
+    .profile-actions-box {margin-top: 1rem;}
+    .profile-actions-box .profile-action-item {margin-left: 0; margin-right: 5px;}
 }
 @media(max-width: 479px){
     .head-actions-box {display: none;}

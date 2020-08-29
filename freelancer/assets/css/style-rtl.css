@@ -107,6 +107,9 @@ body {direction: rtl; text-align: right;}
 }
 .dash-user-item {margin-left: 0; margin-right: 0.5rem;}
 .dash-user-item .user-thumb {margin-right: 0; margin-left: 0;}
+.profile-left {margin-left: 0; margin-right: 20px;}
+.employer-info-left .user-thumb {margin-right: 30px; margin-left: 1rem;}
+.doc-info-left {margin-right: 0; margin-left: 20px;}
 @media(max-width: 1199px){
     .cat-close {right: auto !important; left: 0 !important;}
     .why-ureed-left {padding-left: 0;}
@@ -133,6 +136,11 @@ body {direction: rtl; text-align: right;}
     .contact-left {margin-left: 0;}
     .menu > li:not(:last-child) {margin-left: 0;}
     .dashboard-main-menu .nav-dots {right: auto; left: 15px;}
+    .profile-action-item {
+        margin-right: 10px !important;
+        margin-left: 0 !important;
+    }
+    .profile-left {margin-right: 0;}
 }
 @media(max-width: 767px){
     .f-socials {text-align: center;}
@@ -142,6 +150,10 @@ body {direction: rtl; text-align: right;}
 @media(max-width: 575px){
     .category-box {margin-left: 0 !important; margin-right: 10px !important;}
     .launch-media-box {margin-left: 0 !important; margin-right: 10px;}
+    .profile-action-item {
+        margin-right: 0px !important;
+        margin-left: 5px !important;
+    }
 }
 @media(max-width: 479px){
     .profile-info-right {padding-right: 0;}
