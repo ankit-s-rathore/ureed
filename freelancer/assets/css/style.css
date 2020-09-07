@@ -1708,3 +1708,73 @@ position: absolute; z-index: 2; top: 15px;
 .success-check {max-width: 64px; margin: 0 auto 1.5rem;}
 .patch-item p {line-height: 1.5;}
 .detail-doc-item, .detail-port-item {border-top: 1px solid rgb(224, 224, 224); padding-top: 2rem;}
+.employer-verfity {}
+.icon-verify {display: block; width: 13px; height: 13px; border-radius: 50%; background-color: var(--color-primary); float: left; margin-right: 5px;}
+.icon-verify:before {content: ''; display: block; width: 4px; height: 6px; border-bottom: 2px solid #fff; border-right: 2px solid #fff; transform: rotate(45deg); margin: 3px 0 0 4px;}
+.left-profile-view .user-thumb {min-width: 80px; height: 80px; border-radius: 8px; max-width: 80px;}
+.left-profile-view .profile-name {font-size: 1.125rem;}
+.left-profile-view .profile-name span {color: #7d7d7d;}
+.left-profile-view .profile-des {font-size: .875rem;}
+.left-profile-view .profile-meta-item {margin-right: 10px; flex: 1;}
+.left-profile-view .profile-meta-item:last-child {margin-right: 0;}
+.toggle-checkbox {float: right; margin-top: -5px;}
+.toggle-checkbox span {display: block; width: 48px;
+    height: 24px;
+    background: rgb(223, 223, 223);
+    border-radius: 16px; position: relative; cursor: pointer; transition: .3s;}
+.toggle-checkbox span:before {content: ''; display: block; position: absolute; left: 0; top: 0; width: 24px;
+    height: 24px;
+    background: rgb(129, 129, 129);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 12px; transition: .3s;}
+.toggle-checkbox input {display: none;}
+.toggle-checkbox input:checked + span:before {background: rgb(0, 109, 245); left: 25px;}
+.toggle-checkbox input:checked + span {background: rgb(212, 231, 254);}
+.project-meta-box {
+    width: auto;
+height: auto;
+background: rgb(249, 249, 249);
+border-radius: 4px;
+padding: 15px 5px 15px 25px;
+height: 100%;
+font-size: .875rem;
+color: #7d7d7d;
+}
+.project-meta-box strong {
+color: rgb(0, 0, 0);
+font-size: 1.5rem;
+font-weight: 500; line-height: 1.5;
+display: block;
+}
+.project-meta-boxes .row {margin: 0 -10px;}
+.project-meta-boxes .col-6 {padding: 0 10px; margin-bottom: 10px;}
+.project-tab-panel {padding: 0 25px; background-color: #fff; border-bottom: 1px solid rgb(224, 224, 224);}
+.project-list-item:hover {background-color: #f8fbff; box-shadow: none;}
+.dashboard-profile-listing .load-more-box {background-color: #fff; margin-top: 0; padding: 15px 0;}
+.toggle-list {margin: 0; padding: 0;}
+.toggle-list > li {list-style: none; padding: 24px 0; border-top: 1px solid #e0e0e0;}
+.toggle-title {font-weight: 500; font-size: .875rem; line-height: 1.5; margin-bottom: 5px; position: relative; padding-right: 20px; cursor: pointer;}
+.toggle-title:before {content: ''; display: block; width: 8px; height: 8px; border-right: 2px solid #888888; border-bottom: 2px solid #888888; position: absolute; right: 0; top: 5px; transform: rotate(45deg);}
+.toggle-desc {line-height: 1.5;}
+.progress-right {text-align: right; font-weight: 500; font-size: .875rem; min-width: 68px;}
+.progress-bar {width: auto;
+    height: 10px;
+    background: rgb(249, 249, 249);
+    border-radius: 8px; display: block;}
+.progress-bar span {display: block; height: 10px; border-radius: 8px; background-color: #006df5;}
+.toggle-body {display: none;}
+.progress-outer {margin-top: 10px;}
+.toggle-item.active .toggle-body {display: block;}
+.toggle-item.active .toggle-title:before {transform: rotate(-135deg); top: 8px;}
+.alert-box {margin-bottom: 20px;
+    background: rgb(28, 52, 80);
+    border-radius: 8px;
+    color: #fff;
+}
+.alert-box-inner {padding: 30px 45px;}
+.alert-box-inner .heading {color: #fff;}
+.icon-alert-box {min-width: 66px; max-width: 66px; margin-right: 1.5rem;}
+.alert-right .btn {background-color: #224062; color: #fff; min-width: 170px; text-align: left;}
+.alert-right .btn img {float: right; margin-top: 5px;}
+.alert-right .btn:hover {background-color: var(--color-primary);}
+.alert-data-inner {max-width: 450px; color: #cccccc; line-height: 1.5;}
