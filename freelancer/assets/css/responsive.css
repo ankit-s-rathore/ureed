@@ -158,6 +158,8 @@
     .project-detail-full-main {flex-wrap: wrap;}
     .sidebar-right {margin-left: 0;}
     .profile-actions-box .profile-action-item {margin-right: 0; margin-left: 5px;}
+    .alert-right .btn {min-width: 150px;}
+    .alert-box-inner {padding: 20px 30px;}
 }
 @media(max-width: 767px){
     .heading-large {font-size: 2.5rem;}
@@ -197,6 +199,10 @@
     .posted-by-inner {display: block;}
     .postedby-meta-item {margin-bottom: 10px;}
     .project-posted-by {border-radius: 9px;}
+    .icon-alert-box {min-width: 32px; max-width: 32px; margin-right: 1rem;}
+    .alert-box-inner {padding: 15px 20px;}
+    .alert-data {display: block;}
+    .alert-data-box {margin-bottom: 1rem;}
 }
 @media(max-width: 699px){
     .header-search-box {display: none;}
