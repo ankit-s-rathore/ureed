@@ -1778,3 +1778,4 @@ display: block;
 .alert-right .btn img {float: right; margin-top: 5px;}
 .alert-right .btn:hover {background-color: var(--color-primary);}
 .alert-data-inner {max-width: 450px; color: #cccccc; line-height: 1.5;}
+.dashboard-full-main .project-tab-panel .menu {display: flex;}
