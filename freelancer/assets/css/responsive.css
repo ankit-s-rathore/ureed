@@ -311,6 +311,8 @@
     .navbar-main > .container {max-width: 100%;}
     .get-started-static {margin-top: 0;}
     .details-data-left {margin-right: 0; margin-bottom: 2rem;}
+    .dashboard-profile-listing .project-list-actions {position: absolute; top: 15px; right: 15px; margin-top: 0;}
+    .dashboard-profile-listing .profile-actions-box {margin-top: 0 !important;}
 }
 @media(max-width: 767px){
     .faq-left {margin-right: 0;}
@@ -344,4 +346,11 @@
 }
 @media(max-width: 479px){
     .fact-info br {display: none;}
+    .dashboard-profile-listing .project-item-label .posted-date {display: block; margin-top: 1rem;}
+}
+@media(max-width: 449px){
+    .dashboard-full-main .project-tab-panel .menu li {text-align: center;} 
+}
+@media(max-width: 389px){
+    .dashboard-full-main .project-tab-panel .menu li {flex: 1;} 
 }
