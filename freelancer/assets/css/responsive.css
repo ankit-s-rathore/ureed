@@ -333,6 +333,18 @@
     .banner-cms-inner {padding: 2rem 0;}
     .modal-info-full .modal-box {width: 90%;}
     .heading-main br {display: none;}
+    .dashboard-profile-listing .profile-action-item .btn.btn-action {width: 36px; height: 36px; min-height: 36px; padding-top: 4px;}
+    .dashboard-profile-listing .profile-action-item .btn.btn-action .btn-icon {width: 18px; height: 18px;}
+    .dashboard-profile-listing .posted-by-inner {display: flex;}
+    .dashboard-profile-listing .employer-verfity {font-size: 0px; margin-right: 5px;}
+    .dashboard-profile-listing .employer-verfity .icon-verify {transform: scale(1.5);}
+    .dashboard-profile-listing .employer-verfity .icon-verify:before {margin-top: 2px; margin-left: 4px;}
+    .dashboard-profile-listing .posted-by .thumb {min-width: 34px;}
+    .dashboard-profile-listing .postedby-meta-item {margin-right: 10px; line-height: 1.25; flex: auto;}
+    .dashboard-profile-listing .postedby-meta-item:last-child {margin-right: 0px;}
+    .dashboard-profile-listing .postedby-meta-item:first-child {flex: auto;}
+    .dashboard-profile-listing .posted-location {padding-left: 20px; position: relative;}
+    .dashboard-profile-listing .posted-location .icon-location {position: absolute; left: 0; top: 1px;}
 }
 @media(max-width: 575px){
     .faces-box > div {max-width: 50%; padding: 0; border: none;}
@@ -347,10 +359,16 @@
 @media(max-width: 479px){
     .fact-info br {display: none;}
     .dashboard-profile-listing .project-item-label .posted-date {display: block; margin-top: 1rem;}
+    .dashboard-profile-listing .postedby-meta-item, .dashboard-profile-listing .postedby-meta-item .title.sm {font-size: .75rem;}
+    .dashboard-profile-listing .project-posted-by .posted-by-inner {margin-right: -30px;}
+    .dashboard-profile-listing .project-posted-by {margin-left: -7px;}
 }
 @media(max-width: 449px){
     .dashboard-full-main .project-tab-panel .menu li {text-align: center;} 
 }
 @media(max-width: 389px){
-    .dashboard-full-main .project-tab-panel .menu li {flex: 1;} 
+    .dashboard-full-main .project-tab-panel .menu li {flex: 1;}
+    .dashboard-profile-listing .posted-location .icon-location {position: static; display: block;}
+    .dashboard-profile-listing .posted-location {padding-left: 0;} 
+    .dashboard-profile-listing .project-completed strong {display: block;}
 }
